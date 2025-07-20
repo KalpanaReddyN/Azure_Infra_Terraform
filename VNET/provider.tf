@@ -13,6 +13,6 @@ provider "azurerm" {
   features {}
 
   subscription_id = "7462b2b8-b655-488e-a6b0-2febf3ecc3c1"
-  
+  resource_provider_registrations = "none"
   
 }
